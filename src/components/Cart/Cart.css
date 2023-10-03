@@ -1,0 +1,139 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.cart-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.cart-item-info {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.cart-item-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+
+}
+
+.cart-item-quantity-decrement {
+    border-radius: 1rem;
+
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item-quantity-decrement:hover {
+    background-color: #c9302c;
+}
+
+.cart-item-quantity-increment {
+    border-radius: 1rem;
+
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.cart-item-quantity-increment:hover {
+    background-color: #4cae4c;
+}
+
+
+.cart-item-quantity input {
+    border-radius: 1.5rem;
+
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+
+.cart-item-remove-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item-remove-button:hover {
+    background-color: #c9302c;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.cart-actions {
+    margin-top: 20px;
+}
+
+.cart-actions button {
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-actions button:hover {
+    background-color: #c9302c;
+}
+.cart-item-delete button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.cart-item-delete:hover {
+}
